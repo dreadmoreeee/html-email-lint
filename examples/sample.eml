@@ -1,0 +1,65 @@
+From: Example Shop <news@example.com>
+To: sam@example.org
+Subject: Your order has shipped
+List-Unsubscribe: <https://example.com/unsubscribe?u=1>,
+ <mailto:unsub@example.com?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4522930024473632329=="
+
+--===============4522930024473632329==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Sam, your order is on its way.
+Track it: https://example.com/orders/1042
+
+--===============4522930024473632329==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!doctype html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"utf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1">
+<meta name=3D"color-scheme" content=3D"light dark">
+<meta name=3D"supported-color-schemes" content=3D"light dark">
+<title>Your order has shipped</title>
+<style>
+@media only screen and (max-width:620px){ .wrap{width:100% !important;} }
+@media (prefers-color-scheme: dark){ .card{background:#1f2937 !important;colo=
+r:#f9fafb !important;} }
+</style>
+</head>
+<body style=3D"margin:0;padding:0;background:#f3f4f6;">
+<div style=3D"display:none;max-height:0;overflow:hidden;">Order 1042 left our=
+ warehouse today and arrives Thursday.</div>
+<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" bgcolor=3D"#f3f4f6">
+<tr><td align=3D"center" style=3D"padding:24px 12px;">
+<table role=3D"presentation" class=3D"wrap card" width=3D"600" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;b=
+ackground:#ffffff;">
+<tr><td style=3D"padding:24px;font-family:Arial,sans-serif;font-size:16px;lin=
+e-height:1.5;color:#1f2937;">
+<img src=3D"https://example.com/logo.png" width=3D"120" height=3D"40" alt=3D"=
+Example Shop" style=3D"display:block;border:0;">
+<p style=3D"margin:16px 0;">Hi Sam, your order is on its way.</p>
+<p style=3D"margin:16px 0;"><a href=3D"https://example.com/orders/1042" style=
+=3D"color:#1d4ed8;">Track your parcel</a></p>
+<p style=3D"margin:16px 0;font-size:14px;color:#4b5563;">Questions? <a href=
+=3D"mailto:help@example.com" style=3D"color:#1d4ed8;">help@example.com</a> or=
+ <a href=3D"tel:+15065550100" style=3D"color:#1d4ed8;">506 555 0100</a>.</p>
+<p style=3D"margin:16px 0;font-size:12px;color:#4b5563;"><a href=3D"https://e=
+xample.com/unsubscribe?u=3D1" style=3D"color:#4b5563;">Unsubscribe</a></p>
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>
+
+--===============4522930024473632329==--

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "html-email-lint"
+version = "0.1.0"
+description = "Lint HTML emails for real-client compatibility (Gmail, Outlook, Apple Mail) before sending"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Marvin Palencia"}]
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Communications :: Email",
+]
+
+[project.optional-dependencies]
+screenshots = ["playwright>=1.40"]
+test = ["pytest"]
+
+[project.scripts]
+html-email-lint = "html_email_lint.cli:main"
+
+[tool.setuptools]
+packages = ["html_email_lint"]
